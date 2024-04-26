@@ -12,7 +12,10 @@
     <button>Avança</button>
     <script>
 
-        document.getElementById("btnBack").addEventListener(click ,history.back)
+document.getElementById("btnBack").addEventListener("click", function(){
+    history.back();
+});
+       
         document.getElementById("btnForward").addEventListener(click ,history.forward)
 
     </script>
